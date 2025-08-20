@@ -23,7 +23,7 @@ export default function App() {
 
       {/* Navbar */}
       <nav className="fixed top-0 w-full bg-black/70 backdrop-blur-md z-50 py-4 border-b border-gray-800">
-        <ul className="flex justify-center gap-8 text-sm uppercase tracking-widest">
+        <ul className="flex flex-wrap justify-center gap-4 md:gap-8 px-4 text-xs md:text-sm uppercase tracking-widest">
           {["home", "about", "skills", "experience", "projects", "contact"].map(
             (sec) => (
               <li key={sec}>

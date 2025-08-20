@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 
 const CELL_PX = 32;          // smaller blocks (raise for bigger blocks)
 const OPACITY_CENTER = 0.95; // brightness of the active cell
-const TRANSITION_MS = 500;   // slower fade between cells
+const TRANSITION_MS = 350;   // slower fade between cells
 
 export default function BackgroundGrid() {
   const [hovered, setHovered] = useState({ row: null, col: null });
